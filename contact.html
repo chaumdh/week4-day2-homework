@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body id="contact">
+    <body id="contact" onLoad="disableButton(true)">
         <!-- Container to wrap everything -->
         <div id="container">
 
@@ -96,33 +96,14 @@
                         </div>
 
                         <div class="button">
-                            <input type="submit" value="Inquire">
+                            <input type="submit" id="submit" value="Inquire">
                         </div> 
                     </fieldset>  
                 </form>
             </main> <!-- End Main Content -->
 
             <section>
-                <ul id="partners">
-                    <!-- <li class="partner">
-                        <img src="images/partners/partner-bustour.png" alt="Partner Bus Tour">
-                    </li>
-                    <li class="partner">
-                        <img src="images/partners/partner-cabinrental.png" alt="Partner Cabin Rental">
-                    </li>
-                    <li class="partner">
-                        <img src="images/partners/partner-campingadv.png" alt="Partner Camping Adventure">
-                    </li>
-                    <li class="partner">
-                        <img src="images/partners/partner-collegetours.png" alt="Partner College Tours">
-                    </li>
-                    <li class="partner">
-                        <img src="images/partners/partner-rentalbike.png" alt="Partner Bike Rentals">
-                    </li>
-                    <li class="partner">
-                        <img src="images/partners/partner-tourgroup.png" alt="Partner Tour Group">
-                    </li> -->
-                </ul>
+                <ul id="partners"></ul>
             </section>
             
             <!-- Footer Information -->
